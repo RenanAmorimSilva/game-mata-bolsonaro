@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+  <script src="jogo.js"></script>
+  <title>Mata Bolsonaro</title>
+</head>
+<body onresize="adjustestageSize()">
+
+  <div class="panel">
+    <div class="lifes">
+        <img id="v1" src="/imagens/coracao_cheio.png">
+        <img id="v2" src="/imagens/coracao_cheio.png">
+        <img id="v3" src="/imagens/coracao_cheio.png">
+    </div>
+    <div class="stopwatch">
+      Tempo Restante: <span id="stopwatch"></span>
+    </div>
+  </div>
+
+  <script>
+    document.getElementById('stopwatch').innerHTML = temp
+     
+    let createBolsonaro = setInterval(function(){
+      randomPosition()
+     }, createBolsonaroTemp)
+  </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+html {
+  cursor: url(/imagens/lula-mao.png) 30 30, auto;
+}
+
+body {
+  background-image: url(/imagens/fundo.jpg);
+  background-size: 100%;
+}
+.my-img {
+  margin-top: 5rem;
+}
+.my-button {
+  margin-top: 5rem;
+}
+.my-button-index {
+  margin-top: 1rem;
+}
+
+.bolsonaro1 {
+  width: 3.125rem;
+  height: 3.125rem;
+}
+
+.bolsonaro2 {
+  width: 4.375rem;
+  height: 4.375rem;
+}
+
+.bolsonaro3 {
+  width: 5.625rem;
+  height: 5.625rem;
+}
+
+.sideA {
+  transform: scaleX(1);
+}
+.sideB {
+  transform: scaleX(-1);
+}
+
+.panel {
+  position: absolute;
+  width: 11.875rem;
+  padding: 0.625rem;
+  left: 0px;
+  bottom: 0px;
+  border-top: solid 0.063rem #fff;
+  background-color: #fff;
+  opacity: 0.7;
+}
+
+.lifes {
+  float: left;
+}
+
+.stopwatch {
+  float: left;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
